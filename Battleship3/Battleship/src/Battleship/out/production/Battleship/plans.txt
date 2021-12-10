@@ -1,0 +1,25 @@
+- Create a Board
+- Make Board any size using arrays
+- Get two players info
+- Create 10 or 6 differentiated ships on Board (5 or 3 ships per player)
+- Setup game turns
+- Function to ask player what column and row to shoot cannonballs
+- Differentiate being misses and hits for opposite player ships
+- Setup win and lose conditions
+- Print winner
+
+
+
+ Bodero = Board and functions regarding editing Board
+ Marc = setup win cons
+ Roly = game logic
+
+
+ Do you want to play with an AI or against a player?
+
+ In 1v1, one player is cannon, other player is in control of the ships.
+
+ Player two is prompted for location of their ships, we then show them the gameboard with their ships visible,
+ after confirmation from the player that they are satisfied with the placement, we clear the console, and start prompting Player 1
+ to take control of the cannons
+
